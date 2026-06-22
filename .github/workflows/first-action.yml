@@ -1,0 +1,14 @@
+#this is the example of a basic workflow  - 
+name: first-worflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: macos-15
+    steps:
+      - name: print-greeting
+        run: echo "Hello World"
+      - name: print goodbye
+        run: echo "Good bye"
+        
+  
+  
